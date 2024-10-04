@@ -12,13 +12,13 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "22.03.4"
+          - tag: "23.05.4"
             pkgarch: mips_24kc
-            target: ath79
-            subtarget: nand
-            vermagic: "5c9be91b90bda5403fe3a7c4e8ddb26f"
+            target: rockchip
+            subtarget: armv8
+            vermagic: "2d23b8a4ca7c461cce81c262d535bcf7"
           - tag: "23.05.0"
-            pkgarch: mipsel_24kc
+            pkgarch: aarch64_generic
             target: ramips
             subtarget: mt7621
             vermagic: "9c242f353867f49a96054ff8c9f2c460"
